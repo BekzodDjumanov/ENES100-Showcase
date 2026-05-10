@@ -10,6 +10,9 @@ const inter = Inter({
 
 export const metadata = {
   title: "ENES100 Showcase",
+  icons: {
+    icon: "/favicon.png",
+  },
 }
 
 export default function RootLayout({
