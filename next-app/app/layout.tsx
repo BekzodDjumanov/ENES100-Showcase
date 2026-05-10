@@ -8,6 +8,10 @@ const inter = Inter({
   variable: "--font-sans",
 })
 
+export const metadata = {
+  title: "ENES100 Showcase",
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
