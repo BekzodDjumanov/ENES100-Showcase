@@ -45,6 +45,14 @@ export default function Page() {
           <div className="text-xl font-semibold">
             Data Extraction: Quack Force
           </div>
+
+          <Image
+            src="/img/quack.png"
+            alt="Quack Force"
+            width={150}
+            height={150}
+            className="rounded-xl border border-white/10 bg-white/5 p-2 shadow-lg"
+          />
           <div ref={awardsRef} className="mt-5 flex flex-row gap-20">
             <div className="flex flex-col items-center gap-2">
               <HugeiconsIcon
