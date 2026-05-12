@@ -85,13 +85,13 @@ export default function Page() {
             <FaBroadcastTower /> Live Demonstration
           </div> */}
           <video
-            className="mt-5 w-full max-w-2xl rounded-xl border border-white/10 shadow-sm"
+            className="mt-5 w-1/4 max-w-2xl rounded-xl border border-white/10 px-2 py-2 shadow-sm"
             autoPlay
             loop
             muted
             playsInline
           >
-            <source src="/videos/kyle.mp4" type="video/mp4" />
+            <source src="/videos/demo.mp4" type="video/mp4" />
           </video>
 
           <div className="text-sm text-white/20 italic">
