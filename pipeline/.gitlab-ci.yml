@@ -1,0 +1,6 @@
+create file:
+  image: apline
+  script:
+    - echo "Building"
+    - mkdir build
+    - touch build/something.txt
